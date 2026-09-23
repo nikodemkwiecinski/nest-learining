@@ -4,7 +4,7 @@ import { AppService } from './app.service';
 import { ConfigModule, ConfigService } from '@nestjs/config';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { SnakeNamingStrategy } from 'typeorm-naming-strategies';
-import * as Joi from '@hapi/joi';
+import * as Joi from 'joi';
 import { TestEntityModule } from './data-access-layer/test-entity/test-entity.module';
 
 @Module({
